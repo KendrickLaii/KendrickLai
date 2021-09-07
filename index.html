@@ -1,58 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Kendrick</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.css">
     <link rel="stylesheet" href="./src/css/main.css">
 </head>
-
 <body>
 
-    <div data-scroll-container class="the-main">
+    <div class="navbar">
+        <ul class="nav-list">
+            <li class="nav-item">
+                <a class="nav-link" href="./index.html">
+                    <img class="nav-img" src="/src/img/kermit.jpg" alt="HOME">
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./about.html">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./works.html">WORKS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contact.html">CONTACT</a>
+            </li>
+        </ul>
+    </div>
 
-        <div class="sidebar">
-            <ul class="nav">
-                <li class="nav-item" >
-                    <a id="to-home">
-                        <img class="nav-img" src="./src/img/kermit.jpg" alt="kermit">
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a id="to-about">ABOUT</a>
-                </li>
-                <li class="nav-item">
-                    <a id="to-works">WORKS</a>
-                </li>
-                <li class="nav-item">
-                    <a id="to-contact">CONTACT</a>
-                </li>
-            </ul>
-        </div>
-    
-        <div class="main">
+    <div data-scroll-container>
         
-            <!-- home -->
-            <div data-scroll-section class="home" id="home">
-                <div class="home-main">
-                    <p data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" data-scroll-offset="10%">Kendrick</p>
+        <div data-scroll-section class="home" id="home">
+            <div data-scroll class="home-section">
+                <div data-scroll class="name">
                     <p data-scroll data-scroll-speed="1.5" data-scroll-direction="horizontal">Kendrick</p>
                     <p data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">Kendrick</p>
+                    <p data-scroll data-scroll-speed="2.5" data-scroll-direction="horizontal">Kendrick</p>
                     <p data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">Kendrick</p>
                     <p data-scroll data-scroll-speed="3.5" data-scroll-direction="horizontal">Kendrick</p>
                     <p data-scroll data-scroll-speed="4" data-scroll-direction="horizontal">Kendrick</p>
                 </div>
             </div>
-            <!-- home end -->
-    </div>
+        </div>
 
+        <div data-scroll-section class="home" id="home">
+            <div data-scroll class="home-section">
+                <div data-scroll class="memes">
+                    <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" class="meme" src="./src/img/cat1.jpg" alt="">
+                    <img data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="meme" src="./src/img/cat2.jfif" alt="">
+                    <img data-scroll data-scroll-speed="3" data-scroll-direction="horizontal" class="meme" src="./src/img/cat3.jpg" alt="">
+                    <img data-scroll data-scroll-speed="3" data-scroll-direction="horizontal" class="meme" src="./src/img/cat1.jpg" alt="">
+                    <img data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="meme" src="./src/img/cat2.jfif" alt="">
+                    <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" class="meme" src="./src/img/cat3.jpg" alt="">
+                    <img data-scroll data-scroll-speed="3" data-scroll-direction="horizontal" class="meme" src="./src/img/cat1.jpg" alt="">
+                    <img data-scroll data-scroll-speed="2" data-scroll-direction="horizontal" class="meme" src="./src/img/cat2.jfif" alt="">
+                    <img data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" class="meme" src="./src/img/cat3.jpg" alt="">
+                </div>
+            </div>
+        </div>
 
+   </div> 
+
+    
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="./src/index.js"></script>
-</body>
 
+</body>
 </html>
