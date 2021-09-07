@@ -1,19 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kendrick</title>
-    <link href="./index.css" rel="stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="./src/css/main.css">
 </head>
+
 <body>
-    <div class="main">
-        <div class="center">
-            <img src="https://media1.tenor.com/images/fbd3104bd1edd2462920ce542c1a561d/tenor.gif?itemid=9909518" alt="monkey" />
-            <p class="text"> Why are you here ? </p>
-            <p class="hid">Just give me some time I will finish the page 😘</p>
+
+    <div data-scroll-container class="the-main">
+
+        <div class="sidebar">
+            <ul class="nav">
+                <li class="nav-item" >
+                    <a id="to-home">
+                        <img class="nav-img" src="./src/img/kermit.jpg" alt="kermit">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a id="to-about">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a id="to-works">WORKS</a>
+                </li>
+                <li class="nav-item">
+                    <a id="to-contact">CONTACT</a>
+                </li>
+            </ul>
+        </div>
+    
+        <div class="main">
+        
+            <!-- home -->
+            <div data-scroll-section class="home" id="home">
+                <div class="home-main">
+                    <p data-scroll data-scroll-speed="1" data-scroll-direction="horizontal" data-scroll-offset="10%">Kendrick</p>
+                    <p data-scroll data-scroll-speed="1.5" data-scroll-direction="horizontal">Kendrick</p>
+                    <p data-scroll data-scroll-speed="2" data-scroll-direction="horizontal">Kendrick</p>
+                    <p data-scroll data-scroll-speed="3" data-scroll-direction="horizontal">Kendrick</p>
+                    <p data-scroll data-scroll-speed="3.5" data-scroll-direction="horizontal">Kendrick</p>
+                    <p data-scroll data-scroll-speed="4" data-scroll-direction="horizontal">Kendrick</p>
+                </div>
+            </div>
+            <!-- home end -->
+    
+            <!-- about -->
+            <div data-scroll-section class="about" id="about">
+                <div class="about-main">
+                    <div class="about-title">
+                        <img src="./src/img/kermit-lipton-tea.gif" alt="tea">
+                        <h1>Kendrick Lai</h1>
+                    </div>
+                    <div class="about-text">
+                        <p>
+                            Born and raised in Hong Kong, studied programming in different courses, 
+                            passionate about arts and anything creative, 
+                            always looking for new challenges and experiences.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- about end -->
+    
+            <!-- works -->
+            <div data-scroll-section class="works" id="works">
+                <div class="works-main">
+                    <div class="works-list">
+                        <img src="./src/img/kermit-lipton-tea.gif" alt="tea">
+                        <img src="./src/img/kermit-lipton-tea.gif" alt="tea">
+                        <img src="./src/img/kermit-lipton-tea.gif" alt="tea">
+                        <img src="./src/img/kermit-lipton-tea.gif" alt="tea">
+                        <img src="./src/img/kermit-lipton-tea.gif" alt="tea">
+                    </div>
+                </div>
+            </div>
+            <!-- works end -->
+    
+            <!-- contact -->
+            <div data-scroll-section class="contact" id="contact">
+                <div class="contact-main">
+                    <h2 data-scroll data-scroll-speed="1">What's up?</h2>
+                    <p data-scroll data-scroll-speed="2">😬</p>
+                </div>
+            </div>
+            <!-- contact end -->
+    
         </div>
     </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.1/dist/locomotive-scroll.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./src/index.js"></script>
 </body>
+
 </html>
