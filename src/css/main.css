@@ -28,6 +28,7 @@ body {
 
 /* navbar */
 .navbar { 
+    margin-top: 15px;
     background-color: var(--drak1);
 }
 
@@ -103,6 +104,6 @@ body {
 
 .meme {
     padding: 10px;
-    height: 30%;
-    width: 30%;
+    height: 30px;
+    width: 30px;
 }
