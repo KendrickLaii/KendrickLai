@@ -1,13 +1,13 @@
 const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
-    direction: 'horizontal',
+    direction: 'vertical',
     smartphone: {
         smooth: true,
-        direction: 'horizontal',
+        direction: 'vertical',
     },
     tablet: {
         smooth: true,
-        direction: 'horizontal',
+        direction: 'vertical',
     }
 });
