@@ -95,7 +95,7 @@ body {
 
     margin: 0;
     font-family: var(--text-font1);
-    font-size: 43px;
+    font-size: 40px;
     -webkit-text-stroke: 1px var(--drak4);
     -webkit-text-fill-color: var(--drak1);
 }
@@ -104,7 +104,7 @@ body {
     margin: 0;
     font-family: var(--text-font1);
     padding: 10px 10px 10px 10px;
-    font-size: 43px;
+    font-size: 40px;
     -webkit-text-stroke: 1px var(--drak4);
     -webkit-text-fill-color: var(--drak1);
 }
