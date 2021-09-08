@@ -91,11 +91,11 @@ body {
 
 .about-name {
     position: relative;
-    bottom: 25px;
+    bottom: 30px;
 
     margin: 0;
     font-family: var(--text-font1);
-    font-size: 55px;
+    font-size: 45px;
     -webkit-text-stroke: 1px var(--drak4);
     -webkit-text-fill-color: var(--drak1);
 }
