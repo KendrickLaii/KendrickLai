@@ -2,7 +2,15 @@ const scroll = new LocomotiveScroll({
     el: document.querySelector('[data-scroll-container]'),
     smooth: true,
     direction: 'vertical',
-    
+    tablet: {
+        smooth: true,
+        direction: 'vertical',
+    },    
 });
 
-console.log('hello')
+$(document).ready(() => {
+    $(".loading").fadeOut("slow");
+})
+
+
+
