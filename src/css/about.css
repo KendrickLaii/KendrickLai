@@ -94,19 +94,19 @@ body {
     bottom: 30px;
 
     margin: 0;
-    font-family: 'Sora', sans-serif;
+    font-family: var(--text-font1);
     font-size: 55px;
-    -webkit-text-stroke: 1px var(--text-color);
-    -webkit-text-fill-color: var(--drak1);  
+    -webkit-text-stroke: 1px var(--drak4);
+    -webkit-text-fill-color: var(--drak1);
 }
 
 .about-secname {
     margin: 0;
-    font-family: 'Sora', sans-serif;
+    font-family: var(--text-font1);
     padding: 10px 10px 10px 10px;
     font-size: 55px;
-    -webkit-text-stroke: 1px var(--text-color);
-    -webkit-text-fill-color: var(--drak1);  
+    -webkit-text-stroke: 1px var(--drak4);
+    -webkit-text-fill-color: var(--drak1);
 }
 
 .info-text {
@@ -137,19 +137,19 @@ body {
         bottom: 45px;
     
         margin: 0;
-        font-family: 'Sora', sans-serif;
+        font-family: var(--text-font1);
         font-size: 90px;
-        -webkit-text-stroke: 1px var(--text-color);
-        -webkit-text-fill-color: var(--drak1);  
+        -webkit-text-stroke: 1px var(--drak4);
+        -webkit-text-fill-color: var(--drak1);
     }
 
     .about-secname {
         margin: 0;
-        font-family: 'Sora', sans-serif;
+        font-family: var(--text-font1);
         padding: 10px 10px 10px 10px;
         font-size: 85px;
-        -webkit-text-stroke: 1px var(--text-color);
-        -webkit-text-fill-color: var(--drak1);  
+        -webkit-text-stroke: 1px var(--drak4);
+        -webkit-text-fill-color: var(--drak1);
     }
 
     .info-text {

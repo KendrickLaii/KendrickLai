@@ -102,10 +102,10 @@ body {
     margin: 0;
 
     text-align: center;
-    font-family: 'Sora', sans-serif;
+    font-family: var(--text-font1);
     font-size: 55px;
-    -webkit-text-stroke: 1px var(--text-color);
-    -webkit-text-fill-color: var(--drak1); 
+    -webkit-text-stroke: 1px var(--drak4);
+    -webkit-text-fill-color: var(--drak1);
 }
 
 /* work-end */
@@ -138,9 +138,9 @@ body {
         margin: 0;
     
         text-align: center;
-        font-family: 'Sora', sans-serif;
+        font-family: var(--text-font1);
         font-size: 90px;
-        -webkit-text-stroke: 1px var(--text-color);
-        -webkit-text-fill-color: var(--drak1); 
+        -webkit-text-stroke: 1px var(--drak4);
+        -webkit-text-fill-color: var(--drak1);
     }
 }
