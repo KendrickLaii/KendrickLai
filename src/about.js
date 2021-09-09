@@ -9,6 +9,7 @@ const scroll = new LocomotiveScroll({
 });
 
 $(document).ready(() => {
-    $(".loading").fadeOut("slow");
+    $(".loading").delay(200).fadeOut("slow");
+    console.log('hello')
 })
 
