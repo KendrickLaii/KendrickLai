@@ -52,7 +52,7 @@ body {
 
 .nav-link {
     font-size: 16px;
-    font-family: 'Ultra', serif;
+    font-family: var(--text-font3);
     -webkit-text-stroke: 1px var(--drak4);
     -webkit-text-fill-color: var(--drak1);
     text-decoration: none;
@@ -151,7 +151,7 @@ body {
 
     .nav-link {
         font-size: 25px;
-        font-family: 'Ultra', serif;
+        font-family: var(--text-font3);
         -webkit-text-stroke: 1px var(--drak4);
         -webkit-text-fill-color: var(--drak1);
         text-decoration: none;
@@ -206,7 +206,7 @@ body {
 
     .nav-link {
         font-size: 25px;
-        font-family: 'Ultra', serif;
+        font-family: var(--text-font3);
         -webkit-text-stroke: 1px var(--drak4);
         -webkit-text-fill-color: var(--drak1);
         text-decoration: none;

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ultra&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne&display=swap');
 
 /* set-up */
 :root {
@@ -10,6 +11,7 @@
     --text-color: #D4ECDD;
     --text-font1: 'Ultra', serif;
     --text-font2: 'Sora', sans-serif;
+    --text-font3: 'Syne', sans-serif;
 }
 
 *,
@@ -67,7 +69,7 @@ body {
 
 .nav-link {
     font-size: 16px;
-    font-family: 'Ultra', serif;
+    font-family: var(--text-font3);
     -webkit-text-stroke: 1px var(--drak4);
     -webkit-text-fill-color: var(--drak1);
     text-decoration: none;
@@ -132,7 +134,7 @@ body {
     
     .nav-link {
         font-size: 25px;
-        font-family: 'Ultra', serif;
+        font-family: var(--text-font3);
         -webkit-text-stroke: 1px var(--drak4);
         -webkit-text-fill-color: var(--drak1);
         text-decoration: none;
@@ -158,7 +160,7 @@ body {
 
     .contact-link {
         font-size: 65px;
-        font-family: 'Ultra', serif;
+        font-family: var(--text-font1);
         -webkit-text-stroke: 1px var(--drak4);
         -webkit-text-fill-color: var(--drak1);
         text-decoration: none;
@@ -171,7 +173,7 @@ body {
     
     .nav-link {
         font-size: 25px;
-        font-family: 'Ultra', serif;
+        font-family: var(--text-font3);
         -webkit-text-stroke: 1px var(--drak4);
         -webkit-text-fill-color: var(--drak1);
         text-decoration: none;
@@ -180,7 +182,7 @@ body {
     
     .contact-link {
         font-size: 65px;
-        font-family: 'Ultra', serif;
+        font-family: var(--text-font1);
         -webkit-text-stroke: 1px var(--drak4);
         -webkit-text-fill-color: var(--drak1);
         text-decoration: none;
